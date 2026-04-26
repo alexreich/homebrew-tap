@@ -13,12 +13,12 @@ class Sitepix < Formula
 
   on_arm do
     url "https://github.com/alexreich/SitePix/releases/download/v1.0.0/SitePix-1.0.0-osx-arm64.tar.gz"
-    sha256 "39f174cbca91566e5487f88d0234ab2087407871c5eed4d662e8f5208e166a80"
+    sha256 "569361beb032c2d9804be6b9fb8a87aa8c092f4ed7417ead0ebf7e8daebfd77c"
   end
 
   on_intel do
     url "https://github.com/alexreich/SitePix/releases/download/v1.0.0/SitePix-1.0.0-osx-x64.tar.gz"
-    sha256 "96cda0e627d0496ac9fb220098947b5eb31376a0bb3692d1f88c11eb3c7787a5"
+    sha256 "ff1a6f634deb25f10f1d6608300ca25005293aa5e81d1480384c42cb21706ffe"
   end
 
   def install
@@ -49,7 +49,7 @@ class Sitepix < Formula
 
       Run once to populate photos:
         sitepix
-        sitepix #{opt_libexec}/samples/petapixel.json   # or any other profile
+        sitepix #{opt_libexec}/samples/petapixel.com.json   # or any other profile
 
       Start the daily sync (05:30 by default):
         brew services start sitepix
