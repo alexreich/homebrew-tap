@@ -13,12 +13,12 @@ class Sitepix < Formula
 
   on_arm do
     url "https://github.com/alexreich/SitePix/releases/download/v1.0.0/SitePix-1.0.0-osx-arm64.tar.gz"
-    sha256 "32a10ac22839096ad992193c1ea278cd8a8428ef5e28a4590bf885adac2d29c3"
+    sha256 "7047ffb7cf55b29370d873efd984cd2df43dc4330225ac1d0e885adba50d5c40"
   end
 
   on_intel do
     url "https://github.com/alexreich/SitePix/releases/download/v1.0.0/SitePix-1.0.0-osx-x64.tar.gz"
-    sha256 "997ab047a5bc96693a608c94438a52aee95df7d450f572c2063808caa813782d"
+    sha256 "ffb367f399a4a95b5d8f0d801dd79868fb8054ab5e9186ebeaf4fd427a8decee"
   end
 
   def install
