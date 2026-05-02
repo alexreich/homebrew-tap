@@ -6,19 +6,19 @@
 class Sitepix < Formula
   desc "Pulls large photos from WordPress-style news blogs for use as desktop wallpaper"
   homepage "https://github.com/alexreich/SitePix"
-  version "1.0.0"
+  version "1.0.1"
   license "CC-BY-4.0"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/alexreich/SitePix/releases/download/v1.0.0/SitePix-1.0.0-osx-arm64.tar.gz"
-    sha256 "b91c878681bbf38e5d1d466aa2b6019bfda2148efa010a18d62cf69c88cf1229"
+    url "https://github.com/alexreich/SitePix/releases/download/v1.0.1/SitePix-1.0.1-osx-arm64.tar.gz"
+    sha256 "4298ccfd7170604bbf733ceb8d977f85b9f7832288041433125ffae006fedc8a"
   end
 
   on_intel do
-    url "https://github.com/alexreich/SitePix/releases/download/v1.0.0/SitePix-1.0.0-osx-x64.tar.gz"
-    sha256 "538c19f7454278a10c70e7223fa28be45186db855f61aa7a47fc1f5105438108"
+    url "https://github.com/alexreich/SitePix/releases/download/v1.0.1/SitePix-1.0.1-osx-x64.tar.gz"
+    sha256 "a76451ed744aa6f4e5a9ead35455b4391e98ced133587b4d10299793e57de94d"
   end
 
   def install
